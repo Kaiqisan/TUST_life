@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/login/index",
+        "pages/input-info/index",
+        "pages/sale/index",
+        "pages/mine/index",
+        "pages/wanna/index",
+        "pages/order/index",
+        "pages/goods-details/index",
+        "pages/search/index",
+        "pages/news/index",
+        "pages/get-degree/index",
+        "pages/my-info/index",
+        "pages/my-goods/index",
+        "pages/edit-info/index",
+        "pages/treasure-chest/index",
+        "pages/kinds/index",
+        "pages/land/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff0af",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#333",
+        "list": [
+            {
+                "pagePath": "pages/home/index",
+                "text": "首页",
+                "iconPath": "/static/images/home.png",
+                "selectedIconPath": "/static/images/home-a.png"
+            },
+            {
+                "pagePath": "pages/sale/index",
+                "text": "发布",
+                "iconPath": "/static/images/sale.png",
+                "selectedIconPath": "/static/images/sale-a.png"
+            },
+            {
+                "pagePath": "pages/news/index",
+                "text": "所有消息",
+                "iconPath": "/static/images/news.png",
+                "selectedIconPath": "/static/images/news-a.png"
+            },
+            {
+                "pagePath": "pages/wanna/index",
+                "text": "心愿",
+                "iconPath": "/static/images/wanna.png",
+                "selectedIconPath": "/static/images/wanna-a.png"
+            },
+            {
+                "pagePath": "pages/mine/index",
+                "text": "我的",
+                "iconPath": "/static/images/mine.png",
+                "selectedIconPath": "/static/images/mine-a.png"
+            }
+        ]
+    }
+}
